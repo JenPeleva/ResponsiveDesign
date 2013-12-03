@@ -823,4 +823,6 @@ only screen and (-webkit-device-pixel-ratio: 3) /* high resolution mobile 1080px
         width:100%;
         padding:8px;
     }
+
+.test{}
 }
