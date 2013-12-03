@@ -1,0 +1,54 @@
+/*hack IE7 inline-block*/
+
+display: inline-block; 
+    zoom: 1; 
+    *display: inline; 
+
+
+update [TempSitefinity].[dbo].[sf_users]
+set password_format = 0,
+salt = '',
+passwd ='password'
+where user_name = 'admin'
+
+<add connectionString="data source=PELEVA\SQLEXPRESS;Integrated Security=SSPI;initial catalog=Source61SP1" providerName="System.Data.SqlClient" dbType="MsSql" name="Sitefinity" />
+
+Analytics login: Username: ekaterina.kazakova@telerik.com
+Password: SitefinityUX123
+
+UserName: online9101157930 password: 3db8e057. 
+
+Sharepoint connector
+http://sf-sptest.telerik.com/
+private string userName = @"Telerik\sfsp2010de"; 
+private string password = "sfsp2010de";
+
+pavel's app:
+clientid: 835122000835-ga36rrs8reke2bi495b0fh1jkuhpn1tk.apps.googleusercontent.com
+client secret: rgUk9pu9ooFh3vqAEQk59RB5
+
+user: sitefinityanalyticstest@gmail.com
+pass: an@lyt1cshtml5
+..............................................
+loading panel for inline editting
+..............................................
+
+<div data-sf-ignore="" class="k-loading-mask" style="width: 690px; height: 185px;"><span class="k-loading-text">Loading...</span><div style="background-color: #CCCCCC;opacity:0.5;" class="k-loading-image"></div><div class="k-loading-color"></div></div>
+
+namirane: if (container.find('[data-sf-ignore]').remove().length > 0) {
+
+ this.triggerCommandExecuted('Publish', false, true);
+} 
+
+
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+WinXPFront-end - virtualka s IE7
