@@ -1,0 +1,325 @@
+@media only screen and (min-width: 320px) and (max-width: 480px), /* iPhone 2G-4S */
+only screen and (min-width: 320px) and (max-width: 568px), /* iPhone 5 */
+only screen and (-webkit-device-pixel-ratio: 3) /* high resolution mobile 1080px (Xperia Z etc) */
+{
+
+    /*General styles*/
+    body, form 
+    {
+        width:100%;
+        min-width:0;
+    }
+
+    .sfPublicWrapper 
+    {
+        width:92%;
+        padding-left: 3%;
+        padding-right: 3% ;
+        margin-top: 0;
+    }
+
+    /*Forums list*/
+    .sfforumThreadsList 
+    {
+        font-size:13px;
+    }
+
+    .sfforumPostBreabcrumbWrp,
+    .sfforumsFilterWrp 
+    {
+        font-size: 14px;
+    }
+
+    .sfforumsList .sfforumThreadsCountWrp,
+    .sfforumsList .sfforumPostsCountWrp,
+    .sfforumsList .sfforumLastPostWrp 
+    {
+        width:0;
+        padding:0;
+        margin:0;
+        display:none;
+    }
+
+    .sfforumsList .sfforumThreadsCount,
+    .sfforumsList .sfforumPostsCount,
+    .sfforumsList .sfforumLastPostAge
+    {
+        display:none;
+    }
+
+    .sfforumsFilterWrp .sfthreadsFilterListItm {
+        border-left: 1px solid #d8d8d8;
+        padding-left:8px;
+    }
+
+    .sfforumsFilterWrp .sfthreadsFilterListItm:first-child 
+    {
+        padding-left:0;
+        border-left:none;
+    }
+
+    .sfforumThreadsList thead th 
+    {
+        font-size:11px;
+    }
+
+    .sfforumThreadsList thead .sfforumThreadLastPostWrp,
+    .sfforumThreadsList tbody .sfforumThreadLastPostWrp
+    {
+        display:none;
+        width:0;
+        padding:0;
+        margin:0;
+    }
+
+    .sfforumThreadsList tbody td.sfforumThreadWrp 
+    {
+        width:100%;
+    }
+
+     .sfforumsFilterWrp .sfthreadsFilterList 
+    {
+        display:inline-block;
+    }
+
+    /*Forum threads list*/
+
+    .sfforumThreadsList tbody .sfforumThreadPostsWrp,
+    .sfforumThreadsList tbody .sfforumThreadViewsWrp,
+    .sfforumThreadsList thead .sfforumThreadPostsWrp,
+    .sfforumThreadsList thead .sfforumThreadViewsWrp 
+    {
+        width:0;
+        padding:0;
+        margin:0;
+        display:none;
+    }
+
+    .sfforumSubscribeWrp .sfforumRssLnk,
+    .sfforumThreadsList .sfforumThreadAnswered 
+    {
+        display:none;
+    }
+
+    /*Forum posts list*/
+
+    .sfforumThreadPostList .sfforumThreadPostContentWrp
+    {
+        margin-left:0;
+        float:left;
+        clear:both;
+    }
+
+    .sfforumThreadPostList .sfforumThreadPost
+    {
+        position:relative;
+    }
+
+    .sfforumThreadPostList .sfforumThreadPostUser 
+    {
+        width:85%;
+        position:relative;
+    }
+
+     .sfforumThreadPostList .sfforumThreadPostUser .sfforumUser
+    {
+       float:left;
+       margin-left:60px;
+       width:85%;
+       overflow:hidden;
+       text-overflow:ellipsis;
+    }
+
+    .sfforumThreadPostList .sfforumThreadPostUser .sfforumUserAvatarWrp 
+    {
+        width:50px;
+        height:50px;
+        position:absolute;
+        top:0;
+    }
+
+    .sfforumThreadPostList .sfforumThreadPostUser .sfforumUserPostsInfo,
+    .sfforumThreadPostList .sfforumPostPermalink,
+     .sfforumThreadPostList .sfforumPostFeatured 
+    {
+       display:none;
+    }
+
+     .sfforumThreadPostList  .sfforumPostAge 
+    {
+         margin-left:60px;
+         margin-bottom: 30px;
+    }
+
+    .sfforumThreadPostList .sfEditBtn 
+    {
+        padding-bottom:0;
+    }
+
+    .sfforumThreadPostContentWrp .sfforumPostIsFeaturedWrp 
+    {
+        position:absolute;
+        top:22px;
+        right:10px;
+    }
+
+    .sfforumThreadPostList .sfforumPostMarkFeatured,
+    .sfforumThreadPostList .sfforumPostUnmarkFeatured 
+    {
+        background: transparent url('sfForumsResponsive.png');
+        height:32px;
+        width:32px;
+        color:transparent;
+        display:inline-block;
+    } 
+
+    .sfforumThreadPostList .sfforumPostMarkFeatured 
+    {
+        background-position: 0;
+    }
+
+    .sfforumThreadPostList .sfforumPostUnmarkFeatured 
+    {
+        background-position: 32px 0;
+    }
+
+    .sfforumThreadPostList .sfEditBtn 
+    {
+        position:absolute;
+        bottom: 28px;
+        right:10px;
+    }
+
+    .sfforumThreadsList .sfforumThreadTitle 
+    {
+        font-size:16px;
+    }
+
+    /*Forum post reply*/
+
+    .sfforumPostTitle 
+    {
+        margin-bottom:20px;
+    }
+
+    .sfforumPostTitle .sfTxt 
+    {
+        width:100%;
+    }
+
+    .sfforumReplyThreadAttachmentsWrp .sfforumReplyThreadAttachmentsToggle 
+    {
+       padding-left:0;
+    }
+
+    .sfforumReplyBtn,
+    .sfPublicWrapper .sfforumNewThreadLnk,
+    .sfSubmitBtnWrp input.sfSubmitBtn
+    {
+        -webkit-appearance: none;
+        -moz-appearance:none;
+        background-color: #006CD8;
+        border: 0 none;
+        border-radius: 4px 4px 4px 4px;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 112.5%;
+        line-height: 1.5em;
+        margin-bottom: 0;
+        padding: 8px 25px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 112.5%;
+    }
+
+    .RadUpload_Sitefinity .ruButton.ruBrowse
+    {
+        -webkit-appearance: none;
+        -moz-appearance:none;
+        background-image:none;
+        height:auto;
+        background-color: #006CD8;
+        width:auto;
+        border-radius: 4px 4px 4px 4px;
+        border: 0 none;
+        vertical-align: middle;
+        cursor: pointer;
+        color: #FFFFFF;
+        padding:3px 12px;
+        line-height: 1.5em;
+    }
+
+    .sfforumPostReplyForm .sfforumThreadPostUser 
+    {
+        display:none;
+    }
+
+    .sfforumPostReplyForm .sfforumReplyThreadContent 
+    {
+        margin-left:0;
+    }
+
+    .sfforumPostReplyForm .sfforumReplyThreadContent .sfEditorWrp 
+    {
+        width:auto;
+    }
+
+     .sfforumPostReplyContainer .sfforumPostReplyForm
+    {
+        width:92%;
+        padding-left:3%;
+        padding-right:3%;
+    }
+
+     .sfforumPostReplyContainer .RadEditor.Sitefinity 
+    {
+        width:100% !important;
+        min-width:0 !important;
+    }
+
+   .sfforumReplyFormVisible .sfforumPostReplyContainer 
+    {
+        position: absolute;
+        height: auto !important;
+        top: 0;
+        bottom: 0;   
+        padding:10px;
+    }
+
+    /*New thread*/
+
+    .sfforumNewThreadWrp .sfforumNewThreadName .sfTxt
+    {
+        width: 100%;
+    }
+
+    .PublicWrapper .sfforumNewThreadWrp 
+    {
+        width:100%;
+    }
+
+    .sfforumNewThreadWrp .sfforumNewThreadContent .sfEditorWrp 
+    {
+        width:auto;
+    }
+
+    .sfforumNewThreadWrp .RadEditor.Sitefinity 
+    {
+        width:100% !important;
+    }
+
+    .sfforumNewThreadWrp #attachmentsPanel,
+    .sfforumNewThreadWrp .RadUpload_Sitefinity,
+    .sfforumReplyThreadAttachmentsWrp #attachmentsPanel,
+    .sfforumReplyThreadAttachmentsWrp .RadUpload_Sitefinity
+    {
+        width:100%;
+    }
+
+    .sfforumThreadPostList .sfforumPostAge 
+    {
+        width:65%;
+    }
+   
+}

@@ -1,0 +1,826 @@
+﻿@media only screen and (min-width: 320px) and (max-width: 480px), /* iPhone 2G-4S */
+only screen and (min-width: 320px) and (max-width: 568px), /* iPhone 5 */
+only screen and (-webkit-device-pixel-ratio: 3) /* high resolution mobile 1080px (Xperia Z etc) */
+{
+
+    /*General css*/
+
+    body, form 
+    {
+        width: 100%;
+        min-width: 0;
+
+        font-size:14px;
+        background-color: #fff;
+    }
+
+    .sfPublicWrapper 
+    {
+        width: 92%;
+        padding: 0;
+    }
+
+    /*Products list widget*/
+
+    .sfSortByWrp 
+    {
+        text-align:left;
+        font-size:112.5%;
+    }
+
+    .sfproductsList .sfproductTitle,
+    .sfSortByWrp select
+    {
+        font-size:112.5%;
+    }
+
+    .sfproductsList .sfproductTmbWrp 
+    {
+        height:auto;
+    }
+
+    .sfproductsList .sfproductListItem 
+    {
+        border-bottom: 1px solid #e4e4e4;
+        width:100%;
+        padding:20px 0;
+        height:auto;
+    }
+
+    .sfproductsList .sfproductListItem:first-child 
+    {
+        border-top: 1px solid #e4e4e4;
+    }
+
+    /*Product details*/
+
+    .sfproductDetails .sfproductTitle 
+    {
+        font-size:192.5%;
+    }
+
+    .sfcartSummaryExpandableWrp .sfPriceTotal,
+    .sfproductDetailsWrp .sfAddToWishlistWidget .sfAddToWishListLnkWrp,
+    .sfproductDetails .sfAddToCartWrp .sfTxtLbl 
+    {
+
+        font-size:100%;
+    }
+
+     .sfproductDetails .sfproductDescription,
+     .sfProductInventoryWrp,
+     .sfproductDetails .sfProductfilesTitle
+    {
+       font-size:112.5%;
+    }
+
+    .sfproductDetails .sfproductImgsWrp 
+    {
+        width:100%;
+    }
+
+    .sfProductInventoryWrp 
+    {
+        font-weight:bold;
+    }
+
+    .sfProductInventoryWrp  .sfProductInStock 
+    {
+        font-weight:normal;
+    }
+
+    .sfproductDetails .sfproductInfoWrp 
+    {
+        margin-left:0;
+    }
+
+    .sfproductDetails .sfproductImgsList .sfproductImgWrp 
+    {
+        width:32%;
+        margin:0;
+    }
+
+    .sfproductDetailsWrp .sfAddToWishlistWidget .sfAddToWishListLnkWrp
+    {
+        padding:10px 0;
+    }
+
+    .sfproductDetails .sfAddToCartWrp .sfTxt 
+    {
+        margin-right: 5px;
+    }
+
+    .sfproductDetailsWrp .sfAddToCartWrp .sfAddToCartBtn,
+    .sfcartSummaryExpandableWrp .sfCheckoutBtn,
+    .sfcheckoutMulitPage .sfcheckoutContinueBtn,
+    .sfPrintBtn,
+    .sfSubmitBtn.sfSubmitFilter,
+    .sfshoppingCartWrp .sfshoppingCartBtnsWrp .sfCheckoutBtn
+    {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-color: #006CD8;
+        border: 0 none;
+        border-radius: 4px 4px 4px 4px;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 112.5%;
+        line-height: 1.5em;
+        margin-bottom: 0;
+        padding: 8px 25px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 112.5%;
+        font-weight:normal;
+    }
+
+    .sfCouponEntryField .sfApplyCouponBtn
+    {
+        -webkit-appearance: none;
+        -moz-appearance:none;
+        background-image:none;
+        height:auto;
+        background-color: #006CD8;
+        width:auto;
+        border-radius: 4px 4px 4px 4px;
+        border: 0 none;
+        vertical-align: middle;
+        cursor: pointer;
+        color: #FFFFFF;
+        padding:5px 12px;
+        line-height: 1.5em;
+    }
+
+    .sfproductDetailsWrp .sfAddToCartWrp .sfAddToCartBtn:active,
+    .sfcartSummaryExpandableWrp .sfCheckoutBtn:active,
+    .sfcheckoutMulitPage .sfcheckoutContinueBtn:active,
+    .sfPrintBtn:active,
+    .sfSubmitBtn.sfSubmitFilter:active
+    {
+        background-color: #039EFC;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .sfproductDetailsWrp .sfAddToCartWrp.sfBuyNowBtnWrp 
+    {
+        margin-left:0;
+    }
+
+    .sfproductDetailsWrp .sfAddToWishlistWidget .sfMessage 
+    {
+        margin-top:0;
+    }
+
+    .sfproductOptionsList .sfproductOption 
+    {
+        font-weight:bold;
+    }
+
+    .sfproductOptionsList select 
+    {
+        font-size:112.5%;
+        width:100%;
+        padding:8px;
+    }
+
+    .sfproductInfoWrp .sfProductDocumentsAndFiles 
+    {
+        margin-top:20px;
+    }
+
+    .sfproductDocumentsAndFilesWrp .RadGrid_Basic 
+    {
+        margin-top:0;
+    }
+
+    .sfSmallIcns .sfdownloadList .sfdownloadFile,
+    .sfLargeIcns .sfdownloadList .sfdownloadFile 
+    {
+        display:block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    /*Shopping cart summary*/
+
+    .sfcartSummarySimpleWrp 
+    {
+        max-width:none;
+    }
+
+    .sfcartSummaryExpandableWrp .sflnkToggleCartWrp .sfcartSummaryItemsCount 
+    {
+        font-size:112.5%;
+    }
+
+    .sfcartSummaryExpandableWrp .sflnkToggleCartWrp .sfcartSummaryNoItems 
+    {
+        font-size:80%;
+    }
+
+    .sfwishListWrp .sfMessage 
+    {
+        margin-right:0;
+    }
+
+    .sfcartSummaryBlockWrp .sfItmTmbCol img 
+    {
+        max-width:36px;
+        max-height:36px;
+    }
+
+    .sfwishListWrp .sfwishListBtnsWrp .sfForwardBtn 
+    {
+        padding-right:0;
+    }
+
+    .sfcartSummaryBlockWrp 
+    {
+        max-width:100%;
+    }
+
+    .sfcartSummaryExpandableWrp .sflnkToggleCartWrp
+    {
+        z-index: 10;
+    }
+
+    .sfcartSummaryExpandableWrp 
+    {
+        max-width:100%;
+        width:100%;
+    }
+
+    .sfcartSummaryExpandableWrp .sflnkToggleCartWrp 
+    {
+        height:auto;
+    }
+
+    .sfcartSummaryExpandableWrp .sflnkToggleCartWrpIn
+    {
+        padding:10px
+    }
+
+    .sfcartSummaryExpandableWrp .sflnkToggleCartWrp
+    {
+        border-color:#e4e4e4;
+    }
+
+    .sfcartSummaryExpandableWrp .sflnkToggleCart 
+    {
+        padding-left:0;
+    }
+
+    .sfcartSummaryExpandableWrp .sflnkToggleCart span,
+    .sfcartSummaryExpandableWrp .sflnkToggleCartWrp .sfcartSummaryItemsCount
+    {
+        display:block;
+        text-align:center;
+    }
+
+    .sfcartSummaryExpandableWrp .sfcartSummaryDetailsWrp 
+    {
+        width:auto;
+        border:1px solid #D7D7D7;
+        padding: 8px 8px 30px;
+        position:static;
+        border-top:0;
+    }
+
+    .sfcartSummaryDetailsWrp .sfItmTmbCol
+    {
+        width:15%;
+    }
+
+    .sfcartSummaryDetailsWrp .sfItmPriceCol 
+    {
+        width:25%;
+    }
+
+   .sfcartSummaryExpandableWrp.sfcartSummaryExpanded .sflnkToggleCartWrpIn
+   {
+       border-bottom:0;
+   }
+
+   .sfcartSummaryExpandableWrp.sfcartSummaryExpanded .sflnkToggleCartWrp 
+   {
+       height:auto;
+   }
+
+   .sfcartSummaryExpandableWrp .sfminiShoppingCart td 
+   {
+       border-top:1px solid #D7D7D7;
+   }
+
+
+   /*Checkout*/
+
+
+    .sfcheckoutMulitPage 
+    {
+        width:100%;
+    }
+
+    .sfcheckoutMulitPage .sfcheckoutStepTitle 
+    {
+        font-size:192.5%;
+        display:inline-block;
+    }
+
+    .sfcheckoutMulitPage .sfTxt,
+    .sfcheckoutMulitPage .sfTxtLbl,
+    .sfcheckoutMulitPage select 
+    {
+        font-size:112.5%;
+    }
+
+   
+    .sfcartSummaryExpandableWrp .sfminiShoppingCart .sfItmTitleCol .sfItmTitle,
+    .sfExpandCouponEntryField.sfExpandIcon.sfExpanded,
+    .sfExpandCouponEntryField.sfExpandIcon.sfExpandIcon,
+    .sfcheckoutMulitPage .sfcheckoutPreviewAddress .sfcheckoutStepTitle,
+    .sfcheckoutMulitPage .sfcheckoutPreviewAddress a,
+    .sfcheckoutPreviewProduct .sfcheckoutTotalPriceWrp .sfcheckoutSubtotal,
+    .sforderDetailsWrp .sfcheckoutTotalPriceWrp .sfcheckoutSubtotal
+    {
+       font-size:100%;
+    }
+
+    .sfcheckoutMulitPage select 
+    {
+        padding:8px;
+    }
+
+    .sfcheckoutTabstrip.RadTabStrip_Basic .rtsLink 
+    {
+        background-image:none;
+    }
+
+    .sfcheckoutTabstrip.RadTabStrip_Basic .rtsUL 
+    {
+        width:auto;
+        border-right:1px solid #CCC;
+    }
+
+    .sfcheckoutTabstrip.RadTabStrip_Basic .rtsLI
+    {
+        clear:both;
+        width:100%;
+        border-top:0;
+    }
+
+    .sfcheckoutTabstrip.RadTabStrip_Basic .rtsLI:first-child 
+    {
+        border-top: 1px solid #CCC;
+    }
+
+    .sfcheckoutTabstrip.RadTabStrip_Basic .rtsLink 
+    {
+        padding:10px 30px 10px 0;
+        background:transparent;
+    }
+
+    .RadTabStrip .rtsLink 
+    {
+        text-align:left;
+    }
+
+    .sfcheckoutMulitPage .sfTxt 
+    {
+        padding:10px;
+    }
+
+    .sfcheckoutMulitPage .sfTxt 
+    {
+        width:80%;
+    }
+
+    .sfcheckoutMulitPage .sfcheckoutFormList 
+    {
+        width:100%;
+    }
+
+    .sforderSummary 
+    {
+        float:none;
+        width:100%;
+        margin-bottom:20px;
+    }
+
+    .sfcheckoutMulitPage .sfshippingOptionsWrp 
+    {
+    
+        margin-right:0;
+    }
+
+    .sfcheckoutMulitPage .sfcheckoutPreviewAddress,
+    .sfcheckoutMulitPage .sfcheckoutPreviewProduct
+    {
+        float:none;
+        width:auto;
+    }
+
+    .sfcheckoutMulitPage .sfcheckoutFormItmDdl .RadComboBox_Sitefinity 
+    {
+        width: auto !important;
+    }
+     .sfcheckoutMulitPage .sfcheckoutPreviewProduct
+     {
+         margin-left:0;
+     }
+
+    .sfcheckoutPreviewProduct .RadGrid_Basic td,
+    .sfcheckoutPreviewProduct .RadGrid_Basic th,
+    .RadGrid_Basic td,
+    .RadGrid_Basic th
+    {
+        padding-left:5px;
+        padding-right:5px;
+    }
+
+    .sfcheckoutPreviewProduct .RadGrid_Basic .sfItmOptionsCol,
+    .sfcheckoutPreviewProduct .RadGrid_Basic  .sfSingleItmPriceCol,
+    .RadGrid_Basic .sfItmOptionsCol,
+    .RadGrid_Basic .sfItmTmbCol,
+    .RadGrid_Basic  .sfSingleItmPriceCol   
+    {
+        width:0;
+        display:none;
+        margin:0;
+        padding:0;
+    }
+
+    .sfcheckoutPreviewProduct .RadGrid_Basic  .sfItmTitleCol,
+    .RadGrid_Basic  .sfItmTitleCol  
+    {
+        width:50%;
+    }
+
+    .sfcheckoutPreviewProduct .RadGrid_Basic .sfItmQuantityCol,
+    .RadGrid_Basic .sfItmQuantityCol 
+    {
+         width:25%;
+    }
+
+    .sfcheckoutPreviewProduct .RadGrid_Basic .sfItmPriceCol,
+    .RadGrid_Basic .sfItmPriceCol  
+    {
+         width:25%;
+    }
+
+    .sfcheckoutPreviewProduct .sfcheckoutTotalPriceWrp,
+    .sforderDetailsWrp .sfcheckoutTotalPriceWrp 
+    {
+        width:100%;
+    }
+
+    .sfcheckoutMulitPage .sfStep5Wrp .sfMessage:before 
+    {
+        height:0;
+    }
+
+   /*Wish list*/
+
+      .sfwishListWrp 
+    {
+        margin-bottom:40px;
+    }
+
+    .sfwishListWrp .sfWishlistUpdate .sfshoppingCartUpdateLnk,
+    .RadGrid_Basic .sfItmTitleCol .sfToWishList,
+    .RadGrid_Basic .sfItmTitleCol .sfToCart,
+    .RadGrid_Basic .sfItmTitleCol .sfItmRemove,
+    .RadGrid_Basic .sfItmTitleCol .sfItmTitle,
+    .RadGrid_Basic thead th 
+    {
+         font-size:100%;
+    }
+
+    .RadGrid_Basic .sfItmQuantityCol span
+    {
+        display:none;
+    }
+
+    .RadGrid_Basic .sfItmQuantityCol .sfTxt 
+    {
+        width:60%;
+    }
+
+     .sfshoppingCartWrp .sfShoppingCartGridFooter .sfshoppingCartUpdateLnk 
+    {
+         font-size:100%;
+    }
+
+    .sfWishlistPrivate, .sfWishlistPublic 
+    {
+        margin-top:0;
+    }
+
+    .RadGrid_Basic .sfItmTitleCol .sfItmRemove,
+    .RadGrid_Basic .sfItmTitleCol .sfToWishList
+    {
+        display:inline-block;
+    }
+
+    .RadGrid_Basic .sfItmTitleCol .sfItmRemove 
+    {
+        padding-bottom:10px;
+    }
+
+    .sfExpandCouponEntryField.sfExpandIcon
+    {
+        padding-left:10px;
+    }
+
+    /*Currencies widget*/
+
+    .sfcurrenciesDropDownList select 
+    {
+        font-size:112.5%;
+        width:50%;
+    }
+
+    /*OrdersList, OrdersDetails*/
+
+    .sfordersListWrp .sforderBriefInfoWrp,
+    .sforderDetailsWrp .sforderBriefInfoWrp 
+    {
+        float:none;
+        width:auto;
+    }
+
+    .sfordersListWrp .sfordersListItem .sforderDetailsLnk,
+    .sfordersListWrp .sforderOrderedOn .sforderOrderedOnLbl,
+    .sforderDetailsWrp sforderOrderedOn .sforderOrderedOnLbl,
+    .sforderDetailsWrp .sfordersListItem .sforderDetailsLnk,
+    .sforderDetailsWrp .sforderOrderedOn .sforderOrderedOnLbl,
+    .sfordersListWrp .sforderOrderedOn,
+    .sforderDetailsWrp .sforderOrderedOn,
+    .sforderDetailsWrp .sforderDetailsTitle
+    {
+        font-size:100%;
+    }
+
+    .sfordersListWrp .sfordersListTitle,
+    .sforderDetailsWrp .sforderDetailTitle
+    {
+        margin-top:0;
+    }
+
+    .sfordersListWrp .sfordersList 
+    {
+        border:0;
+    }
+
+    .sfordersListWrp .sfordersListItem
+    {
+        border:1px solid #E4E4E4;
+        padding:10px 10px 20px;
+        margin-bottom:40px;
+    }
+
+    .sfordersListWrp .sfordersListDetailView 
+    {
+        border:0;
+    }
+
+    .sfordersListWrp .sfordersListDetailView,
+    .sforderDetailsWrp .sfordersListDetailView
+    {
+       
+        margin-left:0;
+        padding-left:0;
+    }
+
+    .sfordersListWrp .sforderDetailsLnk 
+    {
+        font-size:12px;
+    }
+
+    .sfordersListWrp .sfordersListDetailView,
+    .sforderDetailsWrp .sfordersListDetailView 
+    {
+        height:auto !important;
+        min-height:0;
+    }
+
+    .sfordersListWrp .sfordersListOrderStatusWrp,
+    .sforderDetailsWrp .sfordersListOrderStatusWrp 
+    {
+        margin-top:15px;
+    }
+
+    .sfordersListWrp .RadGrid_Basic thead th,
+    .sforderDetailsWrp .RadGrid_Basic thead th,
+    .sfordersListWrp .RadGrid_Basic tbody td,
+    .sforderDetailsWrp .RadGrid_Basic tbody td 
+    {
+        padding-left:0;
+        padding-right:10px;
+        background:transparent;
+    }
+
+    .sforderDetailsWrp .RadGrid_Basic .sfItmQuantityCol 
+    {
+        width:25%;
+    }
+
+    .sforderDetailsWrp .RadGrid_Basic .sfItmPriceCol
+    {
+        width:25%;
+    }
+
+    .sforderDetailsWrp .sforderDetails 
+    {
+        border:1px solid #E4E4E4;
+        font-size:14px;
+        padding:10px;
+    }
+
+    .sforderDetailsWrp .sfordersListDetailView 
+    {
+        border-left:0;
+    }
+
+    .sfordersListWrp .sfPrint, 
+    .sforderDetailsWrp .sfPrint 
+    {
+       display:none;
+    }
+
+    /*Departments widget*/
+
+
+
+    /*Horizontal with dropdown*/
+
+    div.RadMenu_Sitefinity,
+    div.RadMenu_Sitefinity a.rmLink
+    {
+        font-size:100%;
+    }
+
+    div.RadMenu_Sitefinity 
+    {
+        background: #eee;
+        float: none;
+    }
+    div.RadMenu .rmHorizontal 
+    {
+        float: none;
+    }
+
+    div.RadMenu_Sitefinity ul.rmHorizontal,
+    div.RadMenu_Sitefinity .rmItem,
+    .RadMenu .rmSlide, .RadMenu .rmGroup, .RadMenu .rmText
+    {
+        visibility:visible !important;
+        overflow:visible !important;
+        float: none !important;
+    }
+   
+    .RadMenu .rmSlide,
+    .RadMenu .rmItem
+    {
+        display:block !important;
+        position:static !important;
+    }
+
+    div.RadMenu_Sitefinity .rmRootGroup .rmItem .rmVertical
+    .RadMenu .rmItem,
+    .RadMenu .rmLink,
+    .RadMenu .rmSlide,
+    .RadMenu .rmLink .rmText
+    {
+        width:auto !important;
+    }
+
+    div.RadMenu_Sitefinity .rmRootGroup .rmItem .rmVertical 
+    {
+        position:static !important;
+        display:block !important;
+    }
+
+   div.RadMenu_Sitefinity .rmRootGroup .rmItem .rmLevel1,
+   div.RadMenu_Sitefinity .rmRootGroup .rmItem .rmLevel2,
+   div.RadMenu_Sitefinity .rmRootGroup .rmItem .rmLevel3, 
+   div.RadMenu_Sitefinity .rmRootGroup .rmItem .rmLevel4, 
+   div.RadMenu_Sitefinity .rmRootGroup .rmItem .rmLevel5,
+   div.RadMenu_Sitefinity .rmRootGroup .rmItem .rmLevel6
+    {
+        margin-left:10px;
+    }
+
+    div.RadMenu_Sitefinity .rmItem a.rmLink 
+    {
+        float:none !important;
+        display:block !important;
+    }
+
+    div.RadMenu_Sitefinity .rmGroup,
+    div.RadMenu_Sitefinity .rmMultiColumn,
+    div.RadMenu_Sitefinity .rmGroup .rmVertical 
+    {
+        background:none;
+    }
+
+    .RadMenu .rmLink 
+    {
+        background:none repeat scroll 0 0 #EEEEEE;
+        border-top:1px solid #fff;
+    }
+
+    .RadMenu .rmLink:active 
+    {
+        background:none repeat scroll 0 0 #E5E5E5;
+    }
+    
+
+    div.RadMenu_Sitefinity .rmVertical .rmItem 
+    {
+        border-top:0;
+    }
+
+    /*Horizontal*/
+
+    div.RadTabStrip.RadTabStrip_Sitefinity,
+    .RadTabStrip_Sitefinity .rtsLI,
+    .RadTabStrip_Sitefinity .rtsLink 
+    {
+        font-size:100%;
+    }
+
+    div.RadTabStrip_Sitefinity  
+    {
+        float: none;
+    }
+
+    .RadTabStrip .rtsUL,
+    .RadTabStripVertical .rtsUL,
+     div.RadTabStrip.RadTabStrip_Sitefinity .rtsLI,
+     div.RadTabStrip.RadTabStrip_Sitefinity ul li a.rtsLink
+    {
+        float: none;
+        display:block;
+        position:static;
+        width:auto;
+    }
+
+    div.RadTabStrip.RadTabStrip_Sitefinity ul li a.rtsLink 
+    {
+        width:auto;
+    }
+
+    div.RadTabStrip.RadTabStrip_Sitefinity ul li a.rtsLink 
+    {
+       border-top:1px solid #fff;
+    }
+
+    div.RadTabStrip.RadTabStrip_Sitefinity ul li a.rtsLink:active
+    {
+        background:none repeat scroll 0 0 #E5E5E5;
+        width:100%;
+    }
+
+    div.RadTabStrip.RadTabStrip_Sitefinity ul li a.rtsLink.rtsSelected 
+    {
+        margin-top:0;
+        width:100%;
+        border-top:1px solid #fff;
+        padding-top:0;
+    }
+
+    /*Product filter*/
+
+    h2.sffilterTitle 
+    {
+        font-size:140%;
+    }
+
+    a.sffilterClearLnk 
+    {
+        padding-top:10px;
+        font-size: 100%;
+    }
+
+    .sfShopByFilterGroupList.sfDropDown .sfGroupTitle,
+    .sfShopByFilterGroupList.sfDropDown .sfShopByFilterGroupListItem select 
+    {
+        font-size:112.5%;
+    }
+
+    .sfShopByFilterGroupList.sfHorizontal .sfShopByFilterGroupListItem,
+    .sfShopByFilterGroupList.sfDropDown .sfShopByFilterGroupListItem 
+    {
+        display:block;
+        margin-right:0;
+        max-width:100%;
+        min-width:0;
+    }
+
+    .sfShopByFilterGroupList.sfDropDown .sfShopByFilterGroupListItem select 
+    {
+        width:100%;
+        padding:8px;
+    }
+}
